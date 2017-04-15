@@ -318,7 +318,7 @@
     <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ConditionMonitoring -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ConditionMonitoring">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PerformDataCollection"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#DataCollectionDevelopment"/>
         <rdfs:comment xml:lang="en">Acquisition and processing of information and data that indicate the state of a machine over time ISO 13372:2012, using techniques recommended in ISO 17359:2011.</rdfs:comment>
         <rdfs:comment xml:lang="pt">Aquisição e tratamento de informações e dados que indiquem o estado de uma máquina ao longo do tempo ISO 13372: 2012, utilizando técnicas recomendadas na ISO 17359: 2011.</rdfs:comment>
     </owl:Class>
@@ -329,6 +329,16 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Coupling">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#DataCollectionDevelopment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#DataCollectionDevelopment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InformationForPHM"/>
+        <rdfs:comment xml:lang="en">Variable representing some significant measurable system characteristic ISO 13372:2012.</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Variável que representa alguma característica significativa do sistema mensurável ISO 13372:2012.</rdfs:comment>
     </owl:Class>
     
 
@@ -634,17 +644,7 @@
     <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ParameterInformation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ParameterInformation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PerformDataCollection"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PerformDataCollection -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PerformDataCollection">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InformationForPHM"/>
-        <rdfs:comment xml:lang="en">Variable representing some significant measurable system characteristic ISO 13372:2012.</rdfs:comment>
-        <rdfs:comment xml:lang="pt">Variável que representa alguma característica significativa do sistema mensurável ISO 13372:2012.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#DataCollectionDevelopment"/>
     </owl:Class>
     
 
@@ -1243,6 +1243,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
         <isPartOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Pump_1"/>
         <hasFunction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Support and allows the shaft rotates without friction, at a given rpm</hasFunction>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6306_C3</hasID>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Single row deep groove ball bearings</hasSpecification>
     </owl:NamedIndividual>
     
 
