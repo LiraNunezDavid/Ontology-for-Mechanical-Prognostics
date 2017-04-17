@@ -262,6 +262,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isCausedBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isCausedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -852,8 +861,8 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Deformation_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Deformation"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#14-Angular_misalignment_of_shaft_due_to_mounting_incorrect"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#15-Parallel_misalignment_of_shaft_due_to_mounting_incorrect"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_14"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_15"/>
         <hasEffect rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Overheat_1"/>
         <rdfs:comment xml:lang="pt">Deformação</rdfs:comment>
     </owl:NamedIndividual>
@@ -918,12 +927,12 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Fracture_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Fracture"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#16-Fatigue_in_rolling_bearing_parts_by_housing_misalignment"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#17-Fatigue_in_bearing_parts_by_mounting_under_pressure_between_bearing_and_shaft"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#18-Ductile_crack_due_to_excessive_tightening_on_the_sides_of_the_bearing"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#19-Ductile_crack_due_to_interference_fit_above_of_specified"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#20-Ductile_crack_due_to_lack_of_free_side_for_dilation"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#21-Fatigue_due_to_fastening_screws_loose"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_16"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_17"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_18"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_19"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_20"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_21"/>
         <hasEffect rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#OperationImpaired_1"/>
         <rdfs:comment xml:lang="en">Separation of an object or material into two or more pieces under the action of stress. The fracture of a solid usually occurs due to the development of certain displacement discontinuity surfaces within the solid.</rdfs:comment>
         <rdfs:comment xml:lang="pt">Separação de um corpo de um material em duas ou mais partes quando este é submetido a um esforço mecânico, como a tensão. As fraturas podem ser definidas primariamente em dúcteis e frágeis. Uma fratura dúctil é aquela que ocorre apenas após deformação plástica extensa e é caracterizada pela lenta propagação de trincas (rachaduras) resultantes da nucleação e crescimento de microcavidades no material.</rdfs:comment>
@@ -1184,6 +1193,195 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Overheat_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Overheat"/>
         <hasSEV rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasSEV>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adhesive wear due to load above projected capacity</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pitting corrosion due to contamination of the lubricant</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loose bearing due to fracture in thread of bolt</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incorrect tightening due to lack of tools</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolt specification with lower yield strength than required</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angular misalignment of shaft due to mounting incorrect</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parallel misalignment of shaft due to mounting incorrect</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue in rolling bearing parts by housing misalignment</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue in bearing parts by mounting with high pressure between housing and bearing/shaft</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ductile crack due to excessive tightening on the sides of the bearing</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ductile crack due to interference fit above of specified</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adhesive wear due to incorrect lubricant specification</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ductile crack due to lack of free side for dilation</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue due to fastening bolt loose</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adhesive wear due to low lubricant level</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fretting wear due to lack tightening on the bearing sides (looseness)</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fretting wear due to vibration of bearing housing</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fretting wear due to poor sealing that contaminates the lubricant (forming blistering)</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fretting wear due to excessive amount of lubricant (swirling)</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wear due to lack of tightening of parts (looseness)</isCausedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wear of parts due to poor sealing that contaminates the lubricant with abrasive particles</isCausedBy>
     </owl:NamedIndividual>
     
 
@@ -1543,212 +1741,21 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Wear_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Wear"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#1-Adhesive_wear_due_to_load_above_projected_capacity"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#10-Pitting_corrosion_due_to_contamination_of_the_lubricant"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#11-Bearing_loose_due_to_fracture_in_screw_threads"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#12-Incorrect_tightening_due_to_lack_of_tools"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#13-Bolt_specification_with_lower_yield_strength_than_required"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#2-Adhesive_wear_due_to_incorrect_lubricant_specification"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#3-Adhesive_wear_due_to_low_lubricant_level"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#4-Fretting_wear_due_to_lack_tightening_on_the_bearing_sides-looseness"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#5-Fretting_wear_due_to_vibration_of_bearing_housing"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#6-Fretting_wear_due_to_poor_sealing_that_contaminates_the_lubricant-forming_blistering"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#7-Fretting_wear_due_to_excessive_amount_of_lubricant-swirling"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#8-Wear_due_to_lack_of_tightening_of_parts-looseness"/>
-        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#9-Wear_of_parts_due_to_poor_sealing_that_contaminates_the_lubricant_with_abrasive_particles"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_1"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_10"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_11"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_12"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_13"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_2"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_3"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_4"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_5"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_6"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_7"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_8"/>
+        <hasCause rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_9"/>
         <hasEffect rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Sound_1"/>
         <rdfs:comment xml:lang="pt">Desgaste</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#1-Adhesive_wear_due_to_load_above_projected_capacity -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#1-Adhesive_wear_due_to_load_above_projected_capacity">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_1"/>
-        <isDetectedWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#VibrationAnalysis_1"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#10-Pitting_corrosion_due_to_contamination_of_the_lubricant -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#10-Pitting_corrosion_due_to_contamination_of_the_lubricant">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_6"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#11-Bearing_loose_due_to_fracture_in_screw_threads -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#11-Bearing_loose_due_to_fracture_in_screw_threads">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_7"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#12-Incorrect_tightening_due_to_lack_of_tools -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#12-Incorrect_tightening_due_to_lack_of_tools">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_8"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#13-Bolt_specification_with_lower_yield_strength_than_required -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#13-Bolt_specification_with_lower_yield_strength_than_required">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_9"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#14-Angular_misalignment_of_shaft_due_to_mounting_incorrect -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#14-Angular_misalignment_of_shaft_due_to_mounting_incorrect">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_10"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#15-Parallel_misalignment_of_shaft_due_to_mounting_incorrect -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#15-Parallel_misalignment_of_shaft_due_to_mounting_incorrect">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_11"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#16-Fatigue_in_rolling_bearing_parts_by_housing_misalignment -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#16-Fatigue_in_rolling_bearing_parts_by_housing_misalignment">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_12"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#17-Fatigue_in_bearing_parts_by_mounting_under_pressure_between_bearing_and_shaft -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#17-Fatigue_in_bearing_parts_by_mounting_under_pressure_between_bearing_and_shaft">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_2"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_13"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#18-Ductile_crack_due_to_excessive_tightening_on_the_sides_of_the_bearing -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#18-Ductile_crack_due_to_excessive_tightening_on_the_sides_of_the_bearing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_14"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#19-Ductile_crack_due_to_interference_fit_above_of_specified -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#19-Ductile_crack_due_to_interference_fit_above_of_specified">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_3"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#2-Adhesive_wear_due_to_incorrect_lubricant_specification -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#2-Adhesive_wear_due_to_incorrect_lubricant_specification">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#LubricantProperty_1"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#20-Ductile_crack_due_to_lack_of_free_side_for_dilation -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#20-Ductile_crack_due_to_lack_of_free_side_for_dilation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_4"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#21-Fatigue_due_to_fastening_screws_loose -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#21-Fatigue_due_to_fastening_screws_loose">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_15"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#3-Adhesive_wear_due_to_low_lubricant_level -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#3-Adhesive_wear_due_to_low_lubricant_level">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_1"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#4-Fretting_wear_due_to_lack_tightening_on_the_bearing_sides-looseness -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#4-Fretting_wear_due_to_lack_tightening_on_the_bearing_sides-looseness">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_2"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#5-Fretting_wear_due_to_vibration_of_bearing_housing -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#5-Fretting_wear_due_to_vibration_of_bearing_housing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_3"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#6-Fretting_wear_due_to_poor_sealing_that_contaminates_the_lubricant-forming_blistering -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#6-Fretting_wear_due_to_poor_sealing_that_contaminates_the_lubricant-forming_blistering">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#LubricantProperty_2"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#7-Fretting_wear_due_to_excessive_amount_of_lubricant-swirling -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#7-Fretting_wear_due_to_excessive_amount_of_lubricant-swirling">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_4"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#8-Wear_due_to_lack_of_tightening_of_parts-looseness -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#8-Wear_due_to_lack_of_tightening_of_parts-looseness">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_5"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#9-Wear_of_parts_due_to_poor_sealing_that_contaminates_the_lubricant_with_abrasive_particles -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#9-Wear_of_parts_due_to_poor_sealing_that_contaminates_the_lubricant_with_abrasive_particles">
-        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
-        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#LubricantProperty_3"/>
     </owl:NamedIndividual>
     
 
