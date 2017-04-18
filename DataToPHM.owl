@@ -1201,6 +1201,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_1"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adhesive wear due to load above projected capacity</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1210,6 +1211,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_10">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_6"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pitting corrosion due to contamination of the lubricant</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1219,6 +1221,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_11">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_7"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loose bearing due to fracture in thread of bolt</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1228,6 +1231,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_12">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_8"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incorrect tightening due to lack of tools</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1237,6 +1241,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_13">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_9"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolt specification with lower yield strength than required</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1246,6 +1251,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_14">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_10"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angular misalignment of shaft due to mounting incorrect</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1255,6 +1261,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_15">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_11"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parallel misalignment of shaft due to mounting incorrect</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1264,6 +1271,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_16">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_12"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue in rolling bearing parts by housing misalignment</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1273,6 +1281,8 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_17">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_2"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_13"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue in bearing parts by mounting with high pressure between housing and bearing/shaft</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1282,6 +1292,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_18">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_14"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ductile crack due to excessive tightening on the sides of the bearing</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1291,6 +1302,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_19">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_3"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ductile crack due to interference fit above of specified</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1300,6 +1312,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_2">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#LubricantProperty_1"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adhesive wear due to incorrect lubricant specification</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1309,6 +1322,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_20">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_4"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ductile crack due to lack of free side for dilation</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1318,6 +1332,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_21">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_15"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue due to fastening bolt loose</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1327,6 +1342,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_3">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_1"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adhesive wear due to low lubricant level</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1336,6 +1352,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_4">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_2"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fretting wear due to lack tightening on the bearing sides (looseness)</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1345,6 +1362,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_5">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_3"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fretting wear due to vibration of bearing housing</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1354,6 +1372,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_6">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#LubricantProperty_2"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fretting wear due to poor sealing that contaminates the lubricant (forming blistering)</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1363,6 +1382,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_7">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_4"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fretting wear due to excessive amount of lubricant (swirling)</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1372,6 +1392,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_8">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_5"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wear due to lack of tightening of parts (looseness)</isCausedBy>
     </owl:NamedIndividual>
     
@@ -1381,6 +1402,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotencialCause_9">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#LubricantProperty_3"/>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wear of parts due to poor sealing that contaminates the lubricant with abrasive particles</isCausedBy>
     </owl:NamedIndividual>
     
