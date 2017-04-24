@@ -96,16 +96,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isMonitoringWith -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isMonitoringWith">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ManufacturingItems"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ConditionMonitoring"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isPartOf -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isPartOf">
@@ -124,9 +114,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#useMagnitude -->
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#usedMagnitude -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#useMagnitude">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#usedMagnitude">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ConditionMonitoring"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Magnitude"/>
     </owl:ObjectProperty>
@@ -1017,9 +1007,9 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     
 
 
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography -->
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography_1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography"/>
     </owl:NamedIndividual>
     
@@ -1443,7 +1433,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#RMS_Velocity_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Magnitude"/>
-        <hasUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mm/s</hasUnit>
+        <hasUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mm/s rms</hasUnit>
         <rdfs:comment>mm/s (rms)</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1459,7 +1449,6 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
         <hasMode rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Deformation_1"/>
         <hasMode rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Fracture_1"/>
         <hasMode rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Wear_1"/>
-        <isMonitoringWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#VibrationAnalysis_1"/>
         <isPartOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Pump_1"/>
         <hasFunction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Support and allows the shaft rotates without friction, at a given rpm</hasFunction>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6306_C3</hasID>
@@ -1501,7 +1490,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature"/>
-        <isDetectedWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography"/>
+        <isDetectedWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography_1"/>
         <hasDET rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasDET>
         <hasDGN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasDGN>
         <rdfs:comment xml:lang="pt">Temperatura</rdfs:comment>
@@ -1513,7 +1502,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_2">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature"/>
-        <isDetectedWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography"/>
+        <isDetectedWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography_1"/>
         <hasDET rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasDET>
         <hasDGN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasDGN>
     </owl:NamedIndividual>
@@ -1524,7 +1513,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_3">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature"/>
-        <isDetectedWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography"/>
+        <isDetectedWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography_1"/>
         <hasDET rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasDET>
         <hasDGN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasDGN>
     </owl:NamedIndividual>
@@ -1535,7 +1524,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature_4">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Temperature"/>
-        <isDetectedWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography"/>
+        <isDetectedWith rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InfraredThermography_1"/>
         <hasDET rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasDET>
         <hasDGN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasDGN>
     </owl:NamedIndividual>
@@ -1579,7 +1568,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#VibrationAnalysis_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#VibrationAnalysis"/>
         <useCollector rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Accelerometer_1"/>
-        <useMagnitude rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#RMS_Velocity_1"/>
+        <usedMagnitude rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#RMS_Velocity_1"/>
     </owl:NamedIndividual>
     
 
@@ -1790,22 +1779,22 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MQ1">
+    <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Tch1">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1">
+    <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Mg1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Sy1">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#FM1">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PC1">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Sy1">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#A">
@@ -1825,8 +1814,8 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual técnica monitora o componente_1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MonitoringTechnique</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual é a Magnitude usada pelo Comonente_1 para medir seu funcionamento?</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnitude of Componet</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -1834,8 +1823,8 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Machine"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MQ1"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Component"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -1854,8 +1843,8 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Component"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Magnitude"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Mg1"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
@@ -1864,8 +1853,8 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isMonitoringWith"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MQ1"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isDetectedWith"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1"/>
                                                 <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Tch1"/>
                                             </rdf:Description>
                                         </rdf:first>
@@ -1875,9 +1864,9 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isPartOf"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MQ1"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#usedMagnitude"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Tch1"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Mg1"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1897,9 +1886,79 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isMonitoringWith"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#usedMagnitude"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Tch1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Mg1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aviso 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warning one</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasHealth"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#M1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#A"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                <swrl:arguments>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#A"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </swrl:arguments>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#M1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasWarning"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#M1"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collect new data in 3 months</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -2048,6 +2107,89 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual é a Técnica de Monitoramento do Component_1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technique os Component</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Component"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Symptom"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Sy1"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ConditionMonitoring"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Tch1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasSymptom"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Sy1"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isDetectedWith"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Sy1"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Tch1"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#isDetectedWith"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#C1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Tch1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aviso 4</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warning four</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
@@ -2118,7 +2260,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual é a causa potencial de falha do componente_1</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual é a Causa Potencial do Componente_1</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cause of component</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -2201,7 +2343,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual é o sintoma do componente_1</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual é o Sintoma do Componente_1</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptom of component</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -2628,76 +2770,6 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasHealth"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#M1"/>
                         <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alarm</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aviso 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warning one</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasHealth"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#M1"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#A"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
-                                <swrl:arguments>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                        <rdf:first rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#A"/>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good</rdf:first>
-                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </swrl:arguments>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#M1"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasWarning"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#M1"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collect new data in 3 months</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
