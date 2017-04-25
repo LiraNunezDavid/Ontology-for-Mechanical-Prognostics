@@ -1744,6 +1744,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#VisulInspection_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#VisulInspection"/>
+        <rdfs:comment xml:lang="pt">Especificar Norma Usada para esta Técnica ..</rdfs:comment>
     </owl:NamedIndividual>
     
 
