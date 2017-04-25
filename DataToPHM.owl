@@ -63,7 +63,7 @@
     <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasMeasurementPoint -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasMeasurementPoint">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ConditionMonitoring"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Component"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
     </owl:ObjectProperty>
     
@@ -207,9 +207,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasLocation -->
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasLocationID -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasLocation">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasLocationID">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -1092,7 +1092,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Measurement_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
         <hasCurrentValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</hasCurrentValue>
-        <hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_003_AC_180_R_N</hasLocation>
+        <hasLocationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_003_AC_180_R_N</hasLocationID>
     </owl:NamedIndividual>
     
 
@@ -1101,7 +1101,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Measurement_2">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
-        <hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_003_AC_090_R_N</hasLocation>
+        <hasLocationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_003_AC_090_R_N</hasLocationID>
     </owl:NamedIndividual>
     
 
@@ -1110,7 +1110,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Measurement_3">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
-        <hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_003_AC_315_A_N</hasLocation>
+        <hasLocationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_003_AC_315_A_N</hasLocationID>
     </owl:NamedIndividual>
     
 
@@ -1119,7 +1119,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Measurement_4">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
-        <hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_004_AC_180_R_N</hasLocation>
+        <hasLocationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_004_AC_180_R_N</hasLocationID>
     </owl:NamedIndividual>
     
 
@@ -1128,7 +1128,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Measurement_5">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
-        <hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_004_AC_090_R_N</hasLocation>
+        <hasLocationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_004_AC_090_R_N</hasLocationID>
     </owl:NamedIndividual>
     
 
@@ -1137,7 +1137,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Measurement_6">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
-        <hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_004_AC_225_A_N</hasLocation>
+        <hasLocationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_004_AC_225_A_N</hasLocationID>
     </owl:NamedIndividual>
     
 
