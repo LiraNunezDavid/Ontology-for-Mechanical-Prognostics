@@ -1039,9 +1039,9 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Group1_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Group1"/>
-        <hasSpecification>Is an electrical machine</hasSpecification>
-        <hasSpecification>Machines with rated power: 300 kW &lt; P &lt; 50 MW</hasSpecification>
-        <hasSpecification>Macines with shaft heigt H &gt;= 315 mm</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is an electrical machine</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machines with rated power: 300 kW &lt; P &lt; 50 MW</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macines with shaft heigt H &gt;= 315 mm</hasSpecification>
     </owl:NamedIndividual>
     
 
@@ -1050,9 +1050,9 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Group2_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Group2"/>
-        <hasSpecification>Is an electrical machine</hasSpecification>
-        <hasSpecification>Machines with rated power: 15 kw &lt; P &lt;= 300 kW</hasSpecification>
-        <hasSpecification>Machines with shaft heigh 160 mm &lt;= H &lt; 315 mm</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is an electrical machine</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machines with rated power: 15 kw &lt; P &lt;= 300 kW</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machines with shaft heigh 160 mm &lt;= H &lt; 315 mm</hasSpecification>
     </owl:NamedIndividual>
     
 
@@ -1061,10 +1061,10 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Group3_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Group3"/>
-        <hasSpecification>Machines with rated power: P &gt; 15kW</hasSpecification>
-        <hasSpecification>Used in pump machine</hasSpecification>
-        <hasSpecification>Used in pump machine with separate driver</hasSpecification>
-        <hasZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good</hasZone>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machines with rated power: P &gt; 15kW</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in pump machine</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in pump machine with separate driver</hasSpecification>
+        <hasZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alarm</hasZone>
     </owl:NamedIndividual>
     
 
@@ -1073,9 +1073,9 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Group4_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Group4"/>
-        <hasSpecification>Machines with rated power: P &gt; 15kW</hasSpecification>
-        <hasSpecification>Used in pump machine</hasSpecification>
-        <hasSpecification>Used in pump machine with integrated driver</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machines with rated power: P &gt; 15kW</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in pump machine</hasSpecification>
+        <hasSpecification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in pump machine with integrated driver</hasSpecification>
     </owl:NamedIndividual>
     
 
