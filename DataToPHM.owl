@@ -1200,7 +1200,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Measurement_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#MeasurementLocation"/>
         <useCollector rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#VelocityTransducer_1"/>
-        <hasCurrentValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.11</hasCurrentValue>
+        <hasCurrentValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</hasCurrentValue>
         <hasLocationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOM0225_003_AC_180_R_N</hasLocationID>
     </owl:NamedIndividual>
     
