@@ -187,6 +187,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasFrequencySpectrum -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasFrequencySpectrum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasFunction -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasFunction">
@@ -220,6 +229,15 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasLocationID">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#VibrationMeasurement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasMeasurementDirection -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#hasMeasurementDirection">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -327,6 +345,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Bearing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Component"/>
+        <rdfs:comment xml:lang="pt">Um mancal em engenharia é uma peça ou conjunto de peças que suporta e permite a rotação do eixo de transmissão de uma dada máquina. Dependendo do tipo de projeto, o mancal pode ser de rolamentos ou deslizante.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">A bearing is a machine element that constrains relative motion to only the desired motion, and reduces friction between moving parts. The design of the bearing may, for example, provide for free linear movement of the moving part or for free rotation around a fixed axis; or, it may prevent a motion by controlling the vectors of normal forces that bear on the moving parts. Many bearings also facilitate the desired motion as much as possible, such as by minimizing friction. Bearings are classified broadly according to the type of operation, the motions allowed, or to the directions of the loads (forces) applied to the parts. Bearing can be kind rolling or journal.</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="pt">http://dbpedia.org/page/Rolling-element_bearing</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -634,8 +655,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#ManufacturingItems">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#InformationForPHM"/>
-        <rdfs:comment xml:lang="pt">Assunto considerado. O item de manufatura pode ser uma peça individual, componente, dispositivo, unidade funcional, máquina, equipamento, subsistema ou sistema de uma determinada fabricação IEC60050-192: 2015.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Subject being considered. The manufacturing item may be an individual part, component, device, functional unit, machine, equipment, subsystem, or system of a given manufacturing IEC60050-192:2015.</rdfs:comment>
+        <rdfs:comment xml:lang="pt">O item de manufatura pode ser uma peça individual, componente, dispositivo, unidade funcional, máquina, equipamento, subsistema ou sistema de uma determinada fabricação IEC60050-192: 2015.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The manufacturing item may be an individual part, component, device, functional unit, machine, equipment, subsystem, or system of a given manufacturing IEC60050-192:2015.</rdfs:comment>
     </owl:Class>
     
 
@@ -718,6 +739,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Pump">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Machine"/>
+        <rdfs:comment xml:lang="en">A pump is a device that moves fluids (liquids or gases), or sometimes slurries, by mechanical action. Pumps can be classified into three major groups according to the method they use to move the fluid: direct lift, displacement, and gravity pumps.Pumps operate by some mechanism (typically reciprocating or rotary), and consume energy to perform mechanical work by moving the fluid. Pumps operate via many energy sources, including manual operation, electricity, engines, or wind power, come in many sizes, from microscopic for use in medical applications to large industrial pumps.</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Uma bomba hidráulica é um dispositivo que adiciona energia aos líquidos, tomando energia mecânica de um eixo, de uma haste ou de um outro fluido: ar comprimido e vapor são os mais usuais. As formas de transmissão de energia podem ser: aumento de pressão, aumento de velocidade ou aumento de elevação – ou qualquer combinação destas formas de energia. Como consequência, facilita-se o movimento do líquido. É geralmente aceito que o líquido possa ser uma mistura de líquidos e sólidos, nas quais a fase líquida prepondera.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">http://dbpedia.org/page/Pump</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -742,9 +766,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#RollingBearing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Bearing"/>
-        <rdfs:comment xml:lang="en">ingles</rdfs:comment>
-        <rdfs:comment xml:lang="pt">portugues</rdfs:comment>
-        <rdfs:seeAlso xml:lang="pt">&lt;http://dbpedia...&gt;</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1335,6 +1356,8 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#PotentialCause"/>
         <hasSymptom rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Vibration_11"/>
         <hasFailureValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</hasFailureValue>
+        <hasFrequencySpectrum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one-time the frequency (1X), two-time the frequency (2x)</hasFrequencySpectrum>
+        <hasMeasurementDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radial</hasMeasurementDirection>
         <isCausedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parallel misalignment of shaft due to mounting incorrect</isCausedBy>
     </owl:NamedIndividual>
     
@@ -2991,7 +3014,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#VibrationMagnitude"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#M1"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Mg1"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
