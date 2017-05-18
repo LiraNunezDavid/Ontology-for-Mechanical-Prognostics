@@ -954,6 +954,7 @@ Principais Sintomas para Bombas Centrífugas - de acordo com ISO 17359:2011.</rd
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#Accelerometer_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#AccelerometerTransducer"/>
+        <useMagnitude rdf:resource="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286#RMS_Velocity_1"/>
     </owl:NamedIndividual>
     
 
