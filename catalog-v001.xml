@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1495142197293" name="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286" uri="DataToPHM.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1501732718311" name="http://www.semanticweb.org/david/ontologies/2016/untitled-ontology-286" uri="OntoProg.owl"/>
     </group>
 </catalog>
